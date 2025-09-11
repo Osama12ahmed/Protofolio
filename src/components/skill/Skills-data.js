@@ -1,5 +1,5 @@
 import ReactLogo from '../../assets/React.png';
-import HtmlLogo from '../../assets/Html5.png';
+import HtmlLogo from '../../assets/HTML5.png';
 import CssLogo from '../../assets/Css3.png';
 import JsLogo from '../../assets/JavaScript.png';
 import TailwindLogo from '../../assets/TailwindCSS.png';
