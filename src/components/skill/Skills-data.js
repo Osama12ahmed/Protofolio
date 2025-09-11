@@ -7,7 +7,7 @@ import NextLogo from '../../assets/Next.js.png';
 import ViteLogo from '../../assets/Vite.js.png';
 import ReduxLogo from '../../assets/Redux.png';
 import GitLogo from '../../assets/Git.png';
-import GithubLogo from '../../assets/Github.png';
+import GithubLogo from '../../assets/GitHub.png';
 import FigmaLogo from '../../assets/Figma.png';
 
 const skill = [
