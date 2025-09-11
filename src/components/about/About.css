@@ -1,0 +1,154 @@
+.about-container,
+.skill-container,
+.projects-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 120px;
+    /* padding: 0 80px; */
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header {
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    font-weight: 800;
+    background: linear-gradient(135deg, #194BFD 0%, #AD13FB 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0 0 20px 0;
+    text-align: center;
+}
+
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 95%;
+    padding-left: 56px;
+
+    /* gap: 60px; */
+}
+
+.edit {
+    background: linear-gradient(135deg, #194BFD 0%, #AD13FB 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.left-about {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.left-about h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 38px;
+    font-weight: 700;
+    margin: 0;
+    color: #ffffff;
+    line-height: 0.7;
+}
+
+.left-about p {
+    font-family: 'Inter', sans-serif;
+    color: #a0a0a0;
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 0;
+}
+
+/* Responsive Design */
+
+@media (max-width: 992px) {
+    .about {
+        flex-direction: column;
+        text-align: center;
+        gap: 40px;
+        width: 100%;
+    }
+
+    .left-about {
+        width: 100%;
+        order: 2;
+    }
+
+    .right-about {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        order: 1;
+    }
+
+    .right-about .lottie-player {
+        height: 200px;
+        width: 200px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .about-container,
+    .skill-container,
+    .projects-container {
+        margin-top: 80px;
+        padding: 0 20px;
+    }
+
+    .about {
+        text-align: left;
+    }
+
+    .header {
+        font-size: 36px;
+    }
+
+    .left-about h2 {
+        font-size: 35px;
+    }
+
+    .left-about p{
+        font-size: 15px;
+    }
+
+    .right-about .lottie-player {
+        height: 300px;
+        width: 400px;
+    }
+}
+
+/* 
+@media (max-width: 480px) {
+    .about-container,
+    .skill-container,
+    .projects-container {
+        margin-top: 60px;
+        padding: 0 15px;
+    }
+    
+    .header {
+        font-size: 28px;
+    }
+    
+    .left-about h2 {
+        font-size: 24px;
+    }
+    
+    .left-about p {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+    
+    .right-about .lottie-player {
+        height: 250px !important;
+        width: 250px !important;
+    }
+} */
