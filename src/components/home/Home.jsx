@@ -27,7 +27,12 @@ export default function Home() {
                     <p className="details">I craft user-friendly, responsive, and visually appealing websites that bring ideas to life on the web.</p>
                     <div className="btn">
                         <button className='first'>Download CV <img src={download} alt="" /></button>
-                        <button className='second'>About Me <img src={arrow} alt="" /></button>
+                        <button
+                            className='second'
+                            onClick={() => document.getElementById('about')?.scrollIntoView({ behavior: 'smooth' })}
+                        >
+                            About Me <img src={arrow} alt="" />
+                        </button>
                     </div>
                     <div className="social-icon">
                         <img src={github} alt="" />

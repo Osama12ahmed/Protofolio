@@ -15,8 +15,18 @@ export default function About() {
                         <h2>Osama Ahmed</h2>
                         <p>I am a 22-year-old Frontend Developer and UI/UX Designer with over two years of hands-on experience in modern web technologies. Currently pursuing my Bachelor's degree at the Faculty of Computers and Information, Egyptian E-Learning University (EELU), Assiut branch – expected graduation in 2026. I am passionate about creating responsive, user-friendly, and visually appealing web applications that combine solid technical development with thoughtful design principles.</p>
                         <div className="btn">
-                            <button className='second'>Projects <img src={arrow} alt="" /></button>
-                            <button className='second'>Skills <img src={arrow} alt="" /></button>
+                            <button
+                                className='second'
+                                onClick={() => document.getElementById('projects')?.scrollIntoView({ behavior: 'smooth' })}
+                            >
+                                Projects <img src={arrow} alt="" />
+                            </button>
+                            <button
+                                className='second'
+                                onClick={() => document.getElementById('skills')?.scrollIntoView({ behavior: 'smooth' })}
+                            >
+                                Skills <img src={arrow} alt="" />
+                            </button>
                         </div>
                     </div>
                     <div className="right-about fade-in-right">
