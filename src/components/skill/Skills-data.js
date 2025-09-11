@@ -1,6 +1,6 @@
 import ReactLogo from '../../assets/React.png';
 import HtmlLogo from '../../assets/HTML5.png';
-import CssLogo from '../../assets/Css3.png';
+import CssLogo from '../../assets/CSS3.png';
 import JsLogo from '../../assets/JavaScript.png';
 import TailwindLogo from '../../assets/TailwindCSS.png';
 import NextLogo from '../../assets/Next.js.png';
