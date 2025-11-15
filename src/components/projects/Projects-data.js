@@ -6,7 +6,7 @@ import YummyImg from "../../assets/Facebook post - 2.png";
 const project = [{
     name: "CinePeek",
     description: "A responsive website for browsing and searching movies with details such as ratings, genres, and descriptions. Built with clean UI and smooth API integration to deliver an engaging experience.",
-    cat: ["React", "CSS", "Axios", "TMDB API"], // 👈 Array
+    cat: ["React", "CSS", "Axios", "TMDB API"], 
     image: CinePeekImg,
     link: 'https://movies-project-woad-eight.vercel.app'
   },

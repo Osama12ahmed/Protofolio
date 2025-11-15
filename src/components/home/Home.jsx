@@ -26,7 +26,7 @@ export default function Home() {
                     />
                     <p className="details">I craft user-friendly, responsive, and visually appealing websites that bring ideas to life on the web.</p>
                     <div className="btn">
-                        <button className='first'>Download CV <img src={download} alt="" /></button>
+                        <a href='https://drive.google.com/file/d/1WRjmUdGOBhmxd6JgMCrmDxkaSRfCfUGl/view?usp=drive_link' className='first'>Download CV <img src={download} alt=""  /></a>
                         <button
                             className='second'
                             onClick={() => document.getElementById('about')?.scrollIntoView({ behavior: 'smooth' })}
@@ -35,9 +35,9 @@ export default function Home() {
                         </button>
                     </div>
                     <div className="social-icon">
-                        <img src={github} alt="" />
-                        <img src={whats} alt="" />
-                        <img src={linkedin} alt="" />
+                        <a href="https://github.com/Osama12ahmed"><img src={github} alt="" /></a>
+                        <a href="https://wa.me/201064035699"><img src={whats} alt="" /></a>
+                        <a href="http://www.linkedin.com/in/osama-ahmed-67764727b"><img src={linkedin} alt="" /></a>
                     </div>
                 </div>
                 <div className="right fade-in-right">
